@@ -25,6 +25,7 @@ dependency_overrides:
     git:
       url: git@gitcode.com:openharmony-sig/flutter_packages.git
       path: 'packages/video_player/video_player'
+      ref: br_video_player-v2.9.2_ohos
 
 dev_dependencies:
   flutter_test:
