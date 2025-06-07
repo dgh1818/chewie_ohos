@@ -15,6 +15,17 @@ dependencies:
   video_player: ^2.9.3
   wakelock_plus: ^1.2.10
 
+dependency_overrides:
+  wakelock_plus:
+    git:
+      url: https://gitcode.com/openharmony-sig/fluttertpc_wakelock_plus.git
+      path: 'wakelock_plus'
+      ref: br_wakelock_plus_1.2.8_ohos
+  video_player:
+    git:
+      url: git@gitcode.com:openharmony-sig/flutter_packages.git
+      path: 'packages/video_player/video_player'
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
